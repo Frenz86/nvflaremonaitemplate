@@ -1,0 +1,12 @@
+2023-08-22 18:01:01,820 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-22 18:01:01,922 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-22 18:01:01,924 - ConnectorManager - INFO - 68125: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-22 18:01:01,967 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:50879] is starting
+2023-08-22 18:01:02,469 - Cell - INFO - server: created backbone internal listener for tcp://localhost:50879
+2023-08-22 18:01:02,471 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-22 18:01:02,504 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-22 18:01:02,512 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-22 18:01:02,546 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-22 18:01:02,546 - root - INFO - Server started
+2023-08-22 18:01:13,332 - ClientManager - INFO - Client: New client site-2@172.22.177.36 joined. Sent token: 46156228-1fc9-495f-a09e-1b11e8a34278.  Total clients: 1
+2023-08-22 18:01:13,387 - ClientManager - INFO - Client: New client site-1@172.22.177.36 joined. Sent token: a7675ce0-0738-4134-bbfd-da8eaf34f5cb.  Total clients: 2
