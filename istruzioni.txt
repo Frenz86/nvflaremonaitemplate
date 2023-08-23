@@ -1,4 +1,5 @@
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+pip3 install --upgrade pip
 
 JOB_NAME=job
 python3 -m monai.bundle download --name "spleen_ct_segmentation" --version "0.4.6" --bundle_dir ./${JOB_NAME}/app/config
@@ -12,7 +13,6 @@ python3 download_spleen_dataset.py
 sed -i "s|/workspace/data/Task09_Spleen|${PWD}/data/Task09_Spleen|g" ${JOB_NAME}/app/config/spleen_ct_segmentation/configs/train.json
 pip3 install tenseal
 
-
 cd ./workspaces
 nvflare provision -p ./secure_project.yml
 cp -r ./workspace/secure_project/prod_00 ./secure_workspace
@@ -20,7 +20,7 @@ cd ..
 
 ./start_fl_secure.sh 2
 
-#sempre nello stesso terminale
+#altro terminale
 mlflow server
 
 #lancio training

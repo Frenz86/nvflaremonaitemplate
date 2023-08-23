@@ -1,0 +1,25 @@
+{
+    "name": "spleen-bundle",
+    "resource_spec": {},
+    "min_clients": 2,
+    "deploy_map": {
+        "app": [
+            "@ALL"
+        ]
+    },
+    "job_folder_name": "job",
+    "submitter_name": "admin@nvidia.com",
+    "submitter_org": "nvidia",
+    "submitter_role": "project_admin",
+    "job_id": "bd881580-0f19-485a-a17b-6c8ee931fd0a",
+    "submit_time": 1692756579.1344776,
+    "submit_time_iso": "2023-08-23T04:09:39.134478+02:00",
+    "start_time": "",
+    "duration": "N/A",
+    "status": "SUBMITTED",
+    "schedule_history": [
+        "2023-08-23 04:09:39: scheduled"
+    ],
+    "schedule_count": 1,
+    "last_schedule_time": 1692756579.7049885
+}

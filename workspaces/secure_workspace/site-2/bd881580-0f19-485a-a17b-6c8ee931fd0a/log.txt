@@ -1,0 +1,10 @@
+2023-08-23 04:09:49,380 - worker_process - INFO - Worker_process started.
+2023-08-23 04:09:49,784 - torch.distributed.nn.jit.instantiator - INFO - Created a temporary directory at /tmp/tmpej7md1sk
+2023-08-23 04:09:49,785 - torch.distributed.nn.jit.instantiator - INFO - Writing /tmp/tmpej7md1sk/_remote_module_non_scriptable.py
+2023-08-23 04:09:51,887 - Cell - INFO - site-2.bd881580-0f19-485a-a17b-6c8ee931fd0a: created backbone internal connector to tcp://localhost:64431 on parent
+2023-08-23 04:09:52,250 - Cell - INFO - site-2.bd881580-0f19-485a-a17b-6c8ee931fd0a: created backbone external connector to grpc://localhost:8102
+2023-08-23 04:09:52,252 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE tcp://localhost:64431] is starting
+2023-08-23 04:09:52,257 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 ACTIVE grpc://localhost:8102] is starting
+2023-08-23 04:09:52,261 - FederatedClient - INFO - Wait for client_runner to be created.
+2023-08-23 04:09:52,265 - FederatedClient - INFO - Got client_runner after 0.004278421401977539 seconds
+2023-08-23 04:09:52,270 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102

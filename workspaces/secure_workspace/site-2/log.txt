@@ -14,3 +14,20 @@
 2023-08-22 18:09:24,002 - Communicator - INFO - Client: site-2 has sent 50 heartbeats.
 2023-08-22 18:11:04,135 - Communicator - INFO - Client: site-2 has sent 60 heartbeats.
 2023-08-22 18:12:44,273 - Communicator - INFO - Client: site-2 has sent 70 heartbeats.
+2023-08-23 04:08:27,553 - Cell - INFO - site-2: created backbone external connector to grpc://localhost:8102
+2023-08-23 04:08:27,650 - ConnectorManager - INFO - 3734: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-23 04:08:27,718 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:64431] is starting
+2023-08-23 04:08:28,221 - Cell - INFO - site-2: created backbone internal listener for tcp://localhost:64431
+2023-08-23 04:08:28,223 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE grpc://localhost:8102] is starting
+2023-08-23 04:08:28,229 - FederatedClient - INFO - Wait for engine to be created.
+2023-08-23 04:08:30,138 - FederatedClient - INFO - Successfully registered client:site-2 for project secure_project. Token:3823b4cf-d19b-4c28-bcaa-ce3416c96133 SSID:ebc6125d-0a56-4688-9b08-355fe9e4d61a
+2023-08-23 04:08:30,144 - FederatedClient - INFO - Got engine after 1.9156773090362549 seconds
+2023-08-23 04:08:30,148 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102
+2023-08-23 04:09:44,135 - ClientEngine - INFO - Starting client app. rank: 0
+2023-08-23 04:09:44,187 - ProcessExecutor - INFO - Worker child process ID: 4443
+2023-08-23 04:09:44,192 - ProcessExecutor - INFO - run (bd881580-0f19-485a-a17b-6c8ee931fd0a): waiting for child worker process to finish.
+2023-08-23 04:10:00,419 - Communicator - INFO - Client: site-2 has sent 10 heartbeats.
+2023-08-23 04:10:37,714 - ProcessExecutor - INFO - run (bd881580-0f19-485a-a17b-6c8ee931fd0a): child worker process finished with RC -9
+2023-08-23 04:11:42,282 - Communicator - INFO - Client: site-2 has sent 20 heartbeats.
+2023-08-23 04:13:22,806 - Communicator - INFO - Client: site-2 has sent 30 heartbeats.
+2023-08-23 04:15:02,969 - Communicator - INFO - Client: site-2 has sent 40 heartbeats.
