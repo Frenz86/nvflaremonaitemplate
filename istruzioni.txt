@@ -1,6 +1,11 @@
 pip3 install -r requirements.txt
 pip3 install --upgrade pip
 
+#################
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+
+#################
+
 JOB_NAME=job
 python3 -m monai.bundle download --name "spleen_ct_segmentation" --version "0.4.6" --bundle_dir ./${JOB_NAME}/app/config
 
